@@ -4,7 +4,7 @@
  * http://www.figlet.org/fontdb_example.cgi?font=larry3d.flf
  * @param {string} string - The text to display in 3D style
  */
-export const Logger2 = (string) => {
+const Logger = (string) => {
   // Define the 3D character mappings
   const charMap = {
     A: [
@@ -645,5 +645,6 @@ export const Logger2 = (string) => {
   console.log(output);
 };
 
+export default Logger;
 // Example usage:
-// Logger2("HELLO");
+// Logger("HELLO");

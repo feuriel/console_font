@@ -1,5 +1,5 @@
 import "./style.css";
-import { Logger, Logger2 } from "./components";
+import { LoggerBulbHead, Logger3D } from "../../index.js";
 
 document.querySelector("#app").innerHTML = `
   <div>
@@ -11,13 +11,13 @@ console.log("Inspired greatly from figlet");
 console.log(
   "-------------------------------------------------------------------------------------------------------------------"
 );
-Logger2("TEST");
+Logger3D("TEST");
 console.log(
   "-------------------------------------------------------------------------------------------------------------------"
 );
-Logger("Example");
+LoggerBulbHead("Example");
 console.log(
   "-------------------------------------------------------------------------------------------------------------------"
 );
-Logger("MADE  BY:");
-Logger("GABRIEL.S");
+LoggerBulbHead("MADE  BY:");
+LoggerBulbHead("GABRIEL.S");

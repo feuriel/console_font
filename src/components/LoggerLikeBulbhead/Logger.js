@@ -4,7 +4,7 @@
  * http://www.figlet.org/fontdb_example.cgi?font=bulbhead.flf
  * @param {string} string - The text to display in fun style
  */
-export const Logger = (string) => {
+const Logger = (string) => {
   // Define tthe character mappings
   const charMap = {
     A: ["  __   ", " / ,\\  ", "/    \\ ", "\\_/\\_/ "],
@@ -53,5 +53,6 @@ export const Logger = (string) => {
   console.log(outputLine);
 };
 
+export default Logger;
 // Example usage:
 // Logger("HELLO");
