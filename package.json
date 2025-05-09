@@ -1,6 +1,6 @@
 {
   "name": "console_font",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A package to have somehow some nice 'font' in console.log ! Yep, you get it, some figlet like getting in your js console",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
