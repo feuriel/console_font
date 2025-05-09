@@ -1,7 +1,7 @@
 This is a lib to display some fun characters in console.
 Inspired by http://www.figlet.org/
 
-`          _____         
+```          _____         
           /\    \        
          /..\    \                 
         /....\    \                  
@@ -18,8 +18,26 @@ Inspired by http://www.figlet.org/
             \...\____\     /  \  (  ( \ (_  _) / ___)         
              \../    /    (  O ) /    /   )(   \___ \        
   TWO         \/____/      \__/  \_)__)  (__)  (____/   Available`      
+  ```
                                      
-
+How to use : 
+```
+import { LoggerBulbHead, Logger3D } from "console_font";
+LoggerBulbHead("EXAMPLE");
+Logger3D("TEST");
+```
+You can also use a single font if you prefer, the package supports tree shaking.
+```
+import Logger from "console_font/LoggerLikeBulbhead"
+Logger("BULBHEAD");
+Logger("FONT");
+```
+or
+```
+import Logger from "console_font/LoggerLikeLarry3D";
+Logger("THREED");
+Logger("FONT");
+```
 Have fun :) !
 
 
