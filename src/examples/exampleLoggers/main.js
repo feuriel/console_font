@@ -21,3 +21,8 @@ console.log(
 );
 LoggerBulbHead("MADE  BY:");
 LoggerBulbHead("GABRIEL.S");
+
+let copyright = `© ${new Date().getFullYear()} Gabriel Somogyi`;
+console.log(`made with ❤️ by Gabriel S.
+  https://gabriel-somogyi.vercel.app/
+  ${copyright}`);
