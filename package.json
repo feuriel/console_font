@@ -1,6 +1,6 @@
 {
   "name": "console_font",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A package to have somehow some nice 'font' in console.log ! Yep, you get it, some figlet like getting in your js console",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
@@ -21,7 +21,7 @@
     "test": "echo \"Run examples to test functionality\""
   },
   "devDependencies": {
-    "vite": "^7.1.4"
+    "vite": "^7.1.5"
   },
   "sideEffects": false,
   "files": [
