@@ -21,7 +21,7 @@
     "test": "echo \"Run examples to test functionality\""
   },
   "devDependencies": {
-    "vite": "^7.1.5"
+    "vite": "^7.1.6"
   },
   "sideEffects": false,
   "files": [
